@@ -36,7 +36,7 @@ Goal is to understand how basic computer animations work and be able to incorpor
   // TODO 9 Make the character respawn at the left when it goes off
   // the right side of the canvas
 
-  // TODO 11 Modify the program to use a different sprite or spritesheet
+  // TODO 10 Modify the program to use a different sprite or spritesheet
   // More spritesheets can be found at https://opengameart.org
 
   // TODO Clean up code by removing "Magic Numbers" and replacing
