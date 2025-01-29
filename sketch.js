@@ -23,8 +23,7 @@ function draw() {
   // TODO 1 call the image() function to display the character image.
   // image(source, x, y)
 
-  // TODO 2 Adjust the size to display as  d stands for destination
-  // (where it will be on the canvas).
+  // TODO 2 Adjust the size to display as 64x64 pixels
   // Make the image display as 64x64 pixels
   // image(source, dX, dY, dW, dH)
 
@@ -32,7 +31,7 @@ function draw() {
   // frame of the animation. (Each frame is 32x32)
   // image(source, dX, dY, dW, dH, sX, sY, sW, sH)
 
-  // TODO 4 Change modify the image call to advance to the next frame.
+  // TODO 4 Modify the image call to advance to the next frame.
   // and the next and the next...
 
   // TODO 5 Now declare a global variable named cFrame and initialize
@@ -41,7 +40,7 @@ function draw() {
 
   // TODO 6 In the draw function increment cFrame by 1.  What happens?
 
-  // TODO 7 Add some code to make the animation reset so the
+  // TODO 7 Add a conditional statement to make the animation reset so the
   // animation loops
 
   // TODO 8 Declare a variable named cX to store the location
