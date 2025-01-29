@@ -4,10 +4,49 @@ Follow the comments in `sketch.js` to create a walking animation for
 a sprite.
 
 Goal is to understand how basic computer animations work and be able to incorporate them into our projects.
+```javascript
+  // TODO 1 call the image() function to display the character image.
+  // image(source, x, y)
 
-// or more detailed usage
-image(img, dx, dy, dWidth, dHeight, sx, sy, [sWidth], [sHeight], [fit], [xAlign], [yAlign])
+  // TODO 2 Adjust the size to display as  d stands for destination
+  // (where it will be on the canvas).
+  // Make the image display as 64x64 pixels
+  // image(source, dX, dY, dW, dH)
+
+  // TODO 3 Adjust the image call again to only display a single
+  // frame of the animation. (Each frame is 32x32)
+  // image(source, dX, dY, dW, dH, sX, sY, sW, sH)
+
+  // TODO 4 Change modify the image call to advance to the next frame.
+  // and the next and the next...
+
+  // TODO 5 Now declare a global variable named cFrame and initialize
+  // it to zero modify the sX argument (arg #6) in the image call
+  // to be:    cFrame * 32
+
+  // TODO 6 In the draw function increment cFrame by 1.  What happens?
+
+  // TODO 7 Add some code to make the animation reset so the
+  // animation loops
+
+  // TODO 8 Declare a variable named cX to store the location
+  // of the character increment the cX variable to make the character
+  // move across the screen
+
+  // TODO 9 Make the character respawn at the left when it goes off
+  // the right side of the canvas
+
+  // TODO 11 Modify the program to use a different sprite or spritesheet
+  // More spritesheets can be found at https://opengameart.org
+
+  // TODO Clean up code by removing "Magic Numbers" and replacing
+  // them with variables or Constants
 ```
+
+## Image Resource
+![P5 Image diagram](img/drawImage.png)
+
+`image(img, dx, dy, dWidth, dHeight, sx, sy, [sWidth], [sHeight], [fit], [xAlign], [yAlign])`
 
 | Parameters | Description |
 | --- | --- |

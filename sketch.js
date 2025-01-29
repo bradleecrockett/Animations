@@ -54,6 +54,6 @@ function draw() {
   // TODO 11 Modify the program to use a different sprite or spritesheet
   // More spritesheets can be found at https://opengameart.org
 
-  // TODO Try to clean up code by removing "Magic Numbers" and replacing
+  // TODO Clean up code by removing "Magic Numbers" and replacing
   // them with variables or Constants
 }
